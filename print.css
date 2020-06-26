@@ -1,0 +1,203 @@
+@page { margin: 2cm }
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 0.5cm;
+}
+.header-space {
+    height: 2.5cm;
+}
+.footer-space {
+    height: 1.2cm;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-box {
+    width: 100%;
+    height: 1.5cm;
+    border: 0.5px solid #000;
+}
+
+.signature {
+    margin-left: 70%;
+    margin-top: 0.7cm;
+    margin-bottom: 0.5cm;
+}
+.sign-end {
+    margin: auto;
+    width: 80%;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+.sign-end tr {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5cm;
+}
+.sign-end td {
+    width: 4.5cm;
+}
+.sign-space {
+    display: inline-block;
+    height: 1.5cm;
+}
+.dash {
+    border-bottom: 1px dashed #000;
+}
+
+/* Table */
+.table-content {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 0.4cm;
+}
+
+.table-content thead {
+    background-color: #f8f8ff;
+    -webkit-print-color-adjust: exact; 
+}
+
+.table-content td, th {
+    border: 0.5px solid #000;
+    padding: 6px;
+}
+
+.table-content th {
+    line-height: 1.2;
+    font-size: 10px;
+}
+
+.table-content td {
+    font-size: 9px;
+    line-height: 1.5;
+    height: 0.25cm;
+}
+
+.table-attendance {
+    border-collapse: collapse;
+    border: 0.5px solid #000;
+    width: 50%;
+    margin-bottom: 0.4cm;
+}
+.table-attendance tr {
+    border-bottom: 0.5px solid #000;
+}
+.table-attendance td {
+    font-size: 10px;
+    padding: 0.15cm;
+    height: 0.25cm;
+}
+
+.h-3 td {
+    height: 3cm;
+    vertical-align: baseline;
+}
+.predicate {
+    width: 15%;
+}
+.number {
+    width: 0.5cm;
+}
+.one-cm {
+    width: 1cm;
+}
+.three-cm {
+    width: 3cm;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2cm 0;
+    border-top: 0.5px solid #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer p {
+    font-weight: bold;
+}
+.footer-left p:not(:last-child) {
+    border-right: 1px solid #000;
+    transform: skewX(-20deg);
+    padding-right: 0.2cm;
+    margin-right: 0.2cm;
+}
+.footer-right {
+    font-style: italic;
+}
+
+.info-left {
+    width: 3.2cm;
+}
+
+
+/* General Classes */
+h1 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 10px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 12px;
+    margin: 2px 0;
+}
+p {
+    font-size: 8px;
+    font-weight: normal;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pagebreak-before {
+    page-break-before: always;
+    clear: both;
+}
+.pagebreak-after {
+    page-break-after: always;
+}
